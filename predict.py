@@ -39,7 +39,7 @@ if __name__ == "__main__":
     parser.add_argument("-f", "--imagePath", type=str, help="Enter image path")
     parser.add_argument("-m", "--modelPath", type=str, help="Enter h5 model path")
     parser.add_argument("-c", "--classPath", type=str, help="Enter class list path")
-    parser.add_argument("-t", "--topk", type=int, default=5, help="Enter ")
+    parser.add_argument("-t", "--topk", type=int, default=5, help="Enter top_k number")
     arg = parser.parse_args()
     print("Imgae Path-", arg.imagePath)
     print("Model Path-", arg.modelPath)
